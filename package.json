@@ -1,0 +1,12 @@
+{
+  "name": "bitbucket-code-highlight",
+  "description": "Add syntax highlight on bitbucket pull requests",
+  "version": "0.0.1",
+  "main": "bitbucket-code-highlight.user.js",
+  "license": "MIT",
+  "author": {
+    "name": "Johnatan Dias",
+    "email": "johnatan.dias@gmail.com",
+    "url": "https://johnatan.dias.dev"
+  }
+}
