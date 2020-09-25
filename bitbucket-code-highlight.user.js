@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Bitbucket code highlight
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  Add syntax highlight on bitbucket pull requests
 // @author       Johnatan Dias
 // @match        https://bitbucket.org/**/*
@@ -74,6 +74,7 @@
         hljs.highlightBlock(codeElement);
         codeElement.style.backgroundColor = 'transparent';
         codeElement.style.padding = '0';
+        codeElement.dataset.highlighted = true;
       });
     });
   }
